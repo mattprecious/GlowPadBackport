@@ -1,0 +1,2 @@
+gradle -b library/build.gradle build
+mvn install:install-file -Dfile=library/build/libs/glowpadbackport-1.0.0-SNAPSHOT.aar -DgroupId=net.sebastianopoggi -DartifactId=glowpadbackport -Dversion=1.0.0-SNAPSHOT -Dpackaging=aar

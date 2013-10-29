@@ -25,3 +25,8 @@ local.properties
 .classpath
 .project
 /.idea/workspace.xml
+
+# Gradle
+.gradle/
+gradlew.bat
+build
